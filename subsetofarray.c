@@ -28,7 +28,7 @@ int i,j,m,n,sub;
 int a[]={1,2,3,4,5};
 int b[]={1,2,3,4};
 m = sizeof(a)/sizeof(a[5]);
-n = sizeof(b)/sizeof(b[3]);
+n = sizeof(b)/sizeof(b[4]);
 sub = Subset(a,b,m,n);
 if(sub)
 {
